@@ -1,0 +1,310 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2 1189</title>
+    <style>
+        h1 {
+            color: white;
+            background-color: red;
+            padding: 5px;
+            text-align: center;
+        }
+
+        p {
+            color: blue;
+        }
+
+
+        img {
+            border: 2px solid red;
+            border-radius: 5px;
+            padding: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+
+        }
+
+
+
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 10px;
+        }
+
+        table#alter tr:nth-child(even) {
+            background-color: #eee;
+        }
+
+        table#alter tr:nth-child(odd) {
+            background-color: #fff;
+        }
+
+        table#alter th {
+            color: white;
+            background-color: gray;
+        }
+
+        .centre {
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+
+
+        .num {
+            list-style-type: decimal;
+        }
+
+        .alpha {
+            list-style-type: lower-alpha;
+        }
+
+        .roman {
+            list-style-type: lower-roman;
+        }
+
+        .circle {
+            list-style-type: circle;
+        }
+
+        .square {
+            list-style-type: square;
+        }
+
+        .disc {
+            list-style-type: disc;
+        }
+
+        .centre {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .bod {
+            background: white url('pic2.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+
+
+        }
+
+        .aud {
+            align-self: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .hvideo {
+            margin-left: auto;
+            margin-right: auto;
+            width: 75%;
+            height: 75%;
+            align-self: center;
+        }
+
+
+        .loginform {
+            padding: 10px;
+            border: 1px solid pink;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+
+        .formheading {
+            background-color: red;
+            color: white;
+            padding: 4px;
+            text-align: center;
+        }
+
+        .sub {
+            background-color: blue;
+            padding: 7px 40px 7px 40px;
+            color: white;
+            font-weight: bold;
+            margin-left: 70px;
+            border-radius: 5px;
+        }
+
+        .men{
+            color: blue;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+
+<body class="bod">
+    <h1>This is main heading of page. </h1>
+    <p>h1 is the most important heading, which is used to display the keyword of page </p>
+    <h2>This is first sub-heading</h2>
+    <p>h2 describes the first sub heading of page. </p>
+    <h3>This is Second sub-heading</h3>
+    <p>h3 describes the second sub heading of page.</p>
+    <p>We can use h1 to h6 tag to use the different sub-heading with their paragraphs if
+        required.
+    </p>
+
+    <h1>HTML Image Example</h1>
+    <img src="pic1.jpg" alt="Good Morning Friends" />
+
+
+    <h1>This is Student Table</h1>
+
+
+
+    <table class="centre">
+        <caption>Student Records</caption>
+        <tr>
+            <th>First_Name</th>
+            <th>Last_Name</th>
+            <th>Marks</th>
+        </tr>
+        <tr>
+            <td>Vimal</td>
+            <td>Jaiswal</td>
+            <td>70</td>
+        </tr>
+        <tr>
+            <td>Mike</td>
+            <td>Warn</td>
+            <td>60</td>
+        </tr>
+        <tr>
+            <td>Shane</td>
+            <td>Warn</td>
+            <td>42</td>
+        </tr>
+        <tr>
+            <td>Jai</td>
+            <td>Malhotra</td>
+            <td>62</td>
+        </tr>
+    </table>
+
+    <h1>Ordered and Unordered List</h1>
+
+    <h2>
+        Ordered Lists
+    </h2>
+    <ol class="num">
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ol>
+    <ol class="alpha">
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ol>
+    <ol class="roman">
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ol>
+    <h2>
+        Unordered lists
+    </h2>
+    <ul class="disc">
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ul>
+    <ul class="circle">
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ul>
+    <ul class="square">
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ul>
+
+    <h1>This is the Student Form</h1>
+
+    <form>
+        <fieldset>
+            <legend>User personal information</legend>
+            <label>Enter your full name</label><br>
+            <input type="text" name="name"><br>
+            <label>Enter your email</label><br>
+            <input type="email" name="email"><br>
+            <label>Enter your password</label><br>
+            <input type="password" name="pass"><br>
+            <label>confirm your password</label><br>
+            <input type="password" name="pass"><br>
+            <br><label>Enter your gender</label><br>
+            <input type="radio" id="gender" name="gender" value="male" />Male <br>
+            <input type="radio" id="gender" name="gender" value="female" />Female <br />
+            <input type="radio" id="gender" name="gender" value="others" />others <br />
+            <br>Enter your Address:<br>
+            <textarea></textarea><br>
+            <input type="submit" value="sign-up">
+        </fieldset>
+    </form>
+
+    <h1>This is the audio tag </h1>
+
+    <audio class="aud" controls>
+        <source src="horse.mp3" type="audio/mpeg">
+        Your browser does not support the html audio tag.
+    </audio>
+    <h1>This is the video tag</h1>
+
+
+    <video class="hvideo" controls autoplay loop>
+        <source src="hvideo.mp4" type="video/mp4">
+        Your browser does not support the html video tag.
+    </video>
+
+    <h1>This is the div tag</h1>
+
+    <div class="loginform">
+        <h3 class="formheading">Please Login</h3>
+        <form action="LoginServlet" method="post">
+            <table>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" name="email" /></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" name="password" /></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align:center"><input class="sub" type="submit" value="login" /></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <h1>This is the menu tag</h1>
+
+    <menu class="men">  
+        <li>Home</li>  
+        <li>Registration</li>  
+        <li>Contact-us</li>  
+        <li>About-us</li>  
+     </menu>  
+
+    
+
+
+
+</body>
+
+</html>
